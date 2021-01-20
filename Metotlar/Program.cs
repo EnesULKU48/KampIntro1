@@ -34,13 +34,15 @@ namespace Metotlar
             //instance - örnek
             //encapsulation
 
-            Sepet_Manager sepet_Manager = new Sepet_Manager();
-            sepet_Manager.Ekle(product1);
-            sepet_Manager.Ekle(product2);
+            SepetManager sepetManager = new SepetManager();
+            sepetManager.Ekle(product1);
+            sepetManager.Ekle(product2);
 
-            sepet_Manager.Ekle2("Armut", "Yeşil armut", 13, 5);
-            sepet_Manager.Ekle2("Elma", "Yeşil elma", 13, 20);
-            sepet_Manager.Ekle2("Karpuz", "Muğla karpuzu", 13, 15);
+            sepetManager.Ekle2("Armut", "Yeşil armut", 13, 5);
+            sepetManager.Ekle2("Elma", "Yeşil elma", 13, 20);
+            sepetManager.Ekle2("Karpuz", "Muğla karpuzu", 13, 15);
+
+            sepetManager.Çıkarma(product1);
 
         }
     }

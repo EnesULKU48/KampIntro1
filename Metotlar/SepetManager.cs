@@ -17,9 +17,15 @@ namespace Metotlar
             //
         }
 
+        public void Çıkarma(Product product3)
+        {
+            Console.WriteLine("Sepetten çıkarıldı : " + product3.Adi);
+        }
+
+
         public void Ekle2(string productAdi, string aciklama, int fiyat, int stokAdedi)
         {
-            Console.WriteLine("Tebrikler. Sepete eklendi : " + productAdi);
+            Console.WriteLine("Tebrikler. Sepete eklendi : " + productAdi + " - " + aciklama);
 
         }
     }
