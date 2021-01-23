@@ -17,11 +17,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metotlar", "..\Metotlar\Met
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefAndOut", "..\RefAndOut\RefAndOut.csproj", "{56108748-FC31-4B1E-ABD8-471AB57CC6B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP1", "..\OOP1\OOP1.csproj", "{C39965CB-D751-4C45-B227-A8C5C7A0281E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP1", "..\OOP1\OOP1.csproj", "{C39965CB-D751-4C45-B227-A8C5C7A0281E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Koleksiyonlar", "..\Koleksiyonlar\Koleksiyonlar.csproj", "{EE75E021-3787-46D6-A2B9-5A2C956CA61C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Koleksiyonlar", "..\Koleksiyonlar\Koleksiyonlar.csproj", "{EE75E021-3787-46D6-A2B9-5A2C956CA61C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsIntro", "..\GenericsIntro\GenericsIntro.csproj", "{AC664095-C684-4F83-8398-39B7E95D0B6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsIntro", "..\GenericsIntro\GenericsIntro.csproj", "{AC664095-C684-4F83-8398-39B7E95D0B6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryIntro", "..\DictionaryIntro\DictionaryIntro.csproj", "{D6B825C4-ED33-4C09-95BA-225F3051345A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{AC664095-C684-4F83-8398-39B7E95D0B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC664095-C684-4F83-8398-39B7E95D0B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC664095-C684-4F83-8398-39B7E95D0B6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6B825C4-ED33-4C09-95BA-225F3051345A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6B825C4-ED33-4C09-95BA-225F3051345A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6B825C4-ED33-4C09-95BA-225F3051345A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6B825C4-ED33-4C09-95BA-225F3051345A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
