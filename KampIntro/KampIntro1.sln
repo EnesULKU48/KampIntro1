@@ -23,7 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Koleksiyonlar", "..\Koleksi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsIntro", "..\GenericsIntro\GenericsIntro.csproj", "{AC664095-C684-4F83-8398-39B7E95D0B6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryIntro", "..\DictionaryIntro\DictionaryIntro.csproj", "{D6B825C4-ED33-4C09-95BA-225F3051345A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DictionaryIntro", "..\DictionaryIntro\DictionaryIntro.csproj", "{D6B825C4-ED33-4C09-95BA-225F3051345A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP2", "..\OOP2\OOP2.csproj", "{3A4C54FB-47AC-4F9D-B37C-9A311B942FA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP3", "..\OOP3\OOP3.csproj", "{7177F268-0D70-4A05-83F8-A5BD8C18B956}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +79,14 @@ Global
 		{D6B825C4-ED33-4C09-95BA-225F3051345A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6B825C4-ED33-4C09-95BA-225F3051345A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6B825C4-ED33-4C09-95BA-225F3051345A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A4C54FB-47AC-4F9D-B37C-9A311B942FA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A4C54FB-47AC-4F9D-B37C-9A311B942FA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A4C54FB-47AC-4F9D-B37C-9A311B942FA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A4C54FB-47AC-4F9D-B37C-9A311B942FA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7177F268-0D70-4A05-83F8-A5BD8C18B956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7177F268-0D70-4A05-83F8-A5BD8C18B956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7177F268-0D70-4A05-83F8-A5BD8C18B956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7177F268-0D70-4A05-83F8-A5BD8C18B956}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

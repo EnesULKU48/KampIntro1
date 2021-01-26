@@ -9,6 +9,8 @@ namespace DictionaryIntro
     {
         T1[] students;
         T2[] studentNumbers;
+        
+ 
 
         public MyDictionary()
         {
@@ -26,7 +28,7 @@ namespace DictionaryIntro
 
             for (int i = 0; i < tempStudents.Length; i++)
             {
-                students[i] = tempStudents[i];               
+                students[i] = tempStudents[i];
             }
 
             for (int i = 0; i < tempStudentNumbers.Length; i++)
@@ -37,6 +39,7 @@ namespace DictionaryIntro
             students[students.Length - 1] = items;
             studentNumbers[studentNumbers.Length - 1] = items2;
         }
+
 
         public T1[] student1
         {
