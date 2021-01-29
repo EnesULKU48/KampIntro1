@@ -9,7 +9,6 @@ namespace ClassIntro
             string adi = "Enes";
             int yas = 36;
 
-
             Kurs kurs1 = new Kurs();
             kurs1.KursAdi = "C#";
             kurs1.Egitmen = "Enes";
